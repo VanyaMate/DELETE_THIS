@@ -1,0 +1,13 @@
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+
+    & > * {
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
